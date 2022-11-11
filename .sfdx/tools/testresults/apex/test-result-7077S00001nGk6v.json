@@ -1,0 +1,85 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 3,
+    "passing": 3,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Wed Nov 02 2022 17:02:34",
+    "testExecutionTimeInMs": 326,
+    "testTotalTimeInMs": 326,
+    "commandTimeInMs": 177,
+    "hostname": "https://projectoccom-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D7S000000ZzXtUAK",
+    "username": "np_p12@projectoc.com",
+    "testRunId": "7077S00001nGk6v",
+    "userId": "0057S000001felaQAA",
+    "totalLines": 0,
+    "coveredLines": 0,
+    "testRunCoverage": "0%",
+    "orgWideCoverage": "51%"
+  },
+  "tests": [
+    {
+      "id": "07M7S000000WBS0UAO",
+      "queueItemId": "7097S000000XbFuQAK",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077S00001nGk6vQAC",
+      "methodName": "createContactTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7S000001z9m5QAA",
+        "name": "ContactManagerTest",
+        "namespacePrefix": null,
+        "fullName": "ContactManagerTest"
+      },
+      "runTime": 132,
+      "testTimestamp": "2022-11-02T16:02:34.000+0000",
+      "fullName": "ContactManagerTest.createContactTest"
+    },
+    {
+      "id": "07M7S000000WBS1UAO",
+      "queueItemId": "7097S000000XbFuQAK",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077S00001nGk6vQAC",
+      "methodName": "existingContactTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7S000001z9m5QAA",
+        "name": "ContactManagerTest",
+        "namespacePrefix": null,
+        "fullName": "ContactManagerTest"
+      },
+      "runTime": 74,
+      "testTimestamp": "2022-11-02T16:02:34.000+0000",
+      "fullName": "ContactManagerTest.existingContactTest"
+    },
+    {
+      "id": "07M7S000000WBS2UAO",
+      "queueItemId": "7097S000000XbFuQAK",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077S00001nGk6vQAC",
+      "methodName": "updateContactTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7S000001z9m5QAA",
+        "name": "ContactManagerTest",
+        "namespacePrefix": null,
+        "fullName": "ContactManagerTest"
+      },
+      "runTime": 120,
+      "testTimestamp": "2022-11-02T16:02:34.000+0000",
+      "fullName": "ContactManagerTest.updateContactTest"
+    }
+  ],
+  "codecoverage": []
+}

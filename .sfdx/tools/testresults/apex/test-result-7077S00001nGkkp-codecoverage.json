@@ -1,0 +1,162 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "ContactManager",
+      "apexClassOrTriggerId": "01p7S000001z9m0QAA",
+      "apexTestClassId": "01p7S000001z9m5QAA",
+      "apexTestMethodName": "createContactTest",
+      "numLinesCovered": 10,
+      "numLinesUncovered": 13,
+      "percentage": "43%",
+      "coverage": {
+        "coveredLines": [
+          5,
+          7,
+          9,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "uncoveredLines": [
+          10,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          32,
+          36,
+          37,
+          38,
+          41,
+          42
+        ]
+      }
+    }
+  ],
+  [
+    {
+      "apexClassOrTriggerName": "ContactManager",
+      "apexClassOrTriggerId": "01p7S000001z9m0QAA",
+      "apexTestClassId": "01p7S000001z9m5QAA",
+      "apexTestMethodName": "existingContactTest",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 19,
+      "percentage": "17%",
+      "coverage": {
+        "coveredLines": [
+          5,
+          7,
+          9,
+          10
+        ],
+        "uncoveredLines": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          32,
+          36,
+          37,
+          38,
+          41,
+          42
+        ]
+      }
+    }
+  ],
+  [
+    {
+      "apexClassOrTriggerName": "ContactManager",
+      "apexClassOrTriggerId": "01p7S000001z9m0QAA",
+      "apexTestClassId": "01p7S000001z9m5QAA",
+      "apexTestMethodName": "updateContactTest",
+      "numLinesCovered": 12,
+      "numLinesUncovered": 11,
+      "percentage": "52%",
+      "coverage": {
+        "coveredLines": [
+          5,
+          25,
+          26,
+          27,
+          28,
+          29,
+          31,
+          36,
+          37,
+          38,
+          41,
+          42
+        ],
+        "uncoveredLines": [
+          7,
+          9,
+          10,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          32
+        ]
+      }
+    }
+  ],
+  [
+    {
+      "apexClassOrTriggerName": "ContactManager",
+      "apexClassOrTriggerId": "01p7S000001z9m0QAA",
+      "apexTestClassId": "01p7S000001z9m5QAA",
+      "apexTestMethodName": "updateNullContactTest",
+      "numLinesCovered": 6,
+      "numLinesUncovered": 17,
+      "percentage": "26%",
+      "coverage": {
+        "coveredLines": [
+          5,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "uncoveredLines": [
+          7,
+          9,
+          10,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          31,
+          32,
+          36,
+          37,
+          38,
+          41,
+          42
+        ]
+      }
+    }
+  ]
+]

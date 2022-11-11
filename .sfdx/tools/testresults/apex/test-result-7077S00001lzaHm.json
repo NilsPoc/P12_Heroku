@@ -1,0 +1,182 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 2,
+    "passing": 2,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Sat Oct 29 2022 12:33:12",
+    "testExecutionTimeInMs": 232,
+    "testTotalTimeInMs": 232,
+    "commandTimeInMs": 175,
+    "hostname": "https://projectoccom-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D7S000000ZzXtUAK",
+    "username": "np_p12@projectoc.com",
+    "testRunId": "7077S00001lzaHm",
+    "userId": "0057S000001felaQAA",
+    "totalLines": 23,
+    "coveredLines": 11,
+    "testRunCoverage": "48%",
+    "orgWideCoverage": "47%"
+  },
+  "tests": [
+    {
+      "id": "07M7S000000W8QzUAK",
+      "queueItemId": "7097S000000Xb5AQAS",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077S00001lzaHmQAI",
+      "methodName": "createContactTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7S000001z9m5QAA",
+        "name": "ContactManagerTest",
+        "namespacePrefix": null,
+        "fullName": "ContactManagerTest"
+      },
+      "runTime": 174,
+      "testTimestamp": "2022-10-29T10:33:13.000+0000",
+      "fullName": "ContactManagerTest.createContactTest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "ContactManager",
+          "apexClassOrTriggerId": "01p7S000001z9m0QAA",
+          "apexTestClassId": "01p7S000001z9m5QAA",
+          "apexTestMethodName": "createContactTest",
+          "numLinesCovered": 10,
+          "numLinesUncovered": 13,
+          "percentage": "43%",
+          "coverage": {
+            "coveredLines": [
+              5,
+              7,
+              9,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              21
+            ],
+            "uncoveredLines": [
+              11,
+              27,
+              28,
+              29,
+              30,
+              31,
+              33,
+              35,
+              39,
+              40,
+              41,
+              44,
+              46
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M7S000000W8R0UAK",
+      "queueItemId": "7097S000000Xb5AQAS",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077S00001lzaHmQAI",
+      "methodName": "existingContactTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7S000001z9m5QAA",
+        "name": "ContactManagerTest",
+        "namespacePrefix": null,
+        "fullName": "ContactManagerTest"
+      },
+      "runTime": 58,
+      "testTimestamp": "2022-10-29T10:33:13.000+0000",
+      "fullName": "ContactManagerTest.existingContactTest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "ContactManager",
+          "apexClassOrTriggerId": "01p7S000001z9m0QAA",
+          "apexTestClassId": "01p7S000001z9m5QAA",
+          "apexTestMethodName": "existingContactTest",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 19,
+          "percentage": "17%",
+          "coverage": {
+            "coveredLines": [
+              5,
+              7,
+              9,
+              11
+            ],
+            "uncoveredLines": [
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              21,
+              27,
+              28,
+              29,
+              30,
+              31,
+              33,
+              35,
+              39,
+              40,
+              41,
+              44,
+              46
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p7S000001z9m0QAA",
+      "name": "ContactManager",
+      "type": "ApexClass",
+      "numLinesCovered": 11,
+      "numLinesUncovered": 12,
+      "percentage": "48%",
+      "coveredLines": [
+        5,
+        7,
+        9,
+        11,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21
+      ],
+      "uncoveredLines": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        33,
+        35,
+        39,
+        40,
+        41,
+        44,
+        46
+      ]
+    }
+  ]
+}
