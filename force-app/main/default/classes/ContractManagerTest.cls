@@ -6,7 +6,7 @@ public with sharing class ContractManagerTest {
         
         Account newAcc = new Account(Name = 'Test');
         insert newAcc;
-
+        // Check if createContract method is creating a new contract
         test.startTest();
         Id createdContractId = ContractManager.createContract(newAcc.Id, 'Draft', system.today()+1, 9);
         System.assert(createdContractId != null);
@@ -21,7 +21,7 @@ public with sharing class ContractManagerTest {
 
         Contract newContract = new Contract(AccountId = newAcc.Id, Status = 'Draft', StartDate = system.today()+1, ContractTerm = 9);
         Insert newContract; 
-
+        // Simulate a patch request with a new status
         RestRequest request = new RestRequest();
         request.requestUri =
             'https://projectoccom-dev-ed.develop.my.salesforce.com/services/apexrest/Contract/'
@@ -30,7 +30,8 @@ public with sharing class ContractManagerTest {
         Request.addHeader('Content-Type', 'Application/Json');
         request.requestBody = Blob.valueOf('{"Status": "Activated"}');
         RestContext.request = request;
-
+        
+        // Check if updateContract method is updating the contract (status)
         test.startTest();
         Id updatedContractId = ContractManager.updateContract();
         test.stopTest(); 
