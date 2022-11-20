@@ -35,4 +35,19 @@ global with sharing class ContactManager {
         update thisContact;
         return thisContact.Id;
     }
+
+    
+    @HttpDelete
+    global static Id deactivateContact (){
+        RestRequest request = RestContext.request;
+        String contactId = request.requestURI.substring(
+            request.requestURI.lastIndexOf('/')+1);
+        Contact contact = [SELECT Id, Deactivated__c FROM Contact WHERE Id = :contactId];
+
+        contact.Deactivated__c = true;  
+        
+        update contact;
+        return contact.Id;
+    }
+    
 }

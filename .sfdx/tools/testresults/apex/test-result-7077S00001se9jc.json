@@ -1,0 +1,369 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 5,
+    "passing": 5,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Sat Nov 19 2022 18:08:59",
+    "testExecutionTimeInMs": 1046,
+    "testTotalTimeInMs": 1046,
+    "commandTimeInMs": 206,
+    "hostname": "https://projectoccom-dev-ed.develop.my.salesforce.com",
+    "orgId": "00D7S000000ZzXtUAK",
+    "username": "np_p12@projectoc.com",
+    "testRunId": "7077S00001se9jc",
+    "userId": "0057S000001felaQAA",
+    "totalLines": 39,
+    "coveredLines": 39,
+    "testRunCoverage": "100%",
+    "orgWideCoverage": "100%"
+  },
+  "tests": [
+    {
+      "id": "07M7S000000WSXqUAO",
+      "queueItemId": "7097S000000XcB9QAK",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077S00001se9jcQAA",
+      "methodName": "createContactTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7S000001z9m5QAA",
+        "name": "ContactManagerTest",
+        "namespacePrefix": null,
+        "fullName": "ContactManagerTest"
+      },
+      "runTime": 326,
+      "testTimestamp": "2022-11-19T17:09:00.000+0000",
+      "fullName": "ContactManagerTest.createContactTest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "ContactManager",
+          "apexClassOrTriggerId": "01p7S000001z9m0QAA",
+          "apexTestClassId": "01p7S000001z9m5QAA",
+          "apexTestMethodName": "createContactTest",
+          "numLinesCovered": 10,
+          "numLinesUncovered": 11,
+          "percentage": "48%",
+          "coverage": {
+            "coveredLines": [
+              5,
+              7,
+              9,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ],
+            "uncoveredLines": [
+              10,
+              25,
+              26,
+              27,
+              28,
+              29,
+              31,
+              32,
+              33,
+              35,
+              36
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M7S000000WSXrUAO",
+      "queueItemId": "7097S000000XcB9QAK",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077S00001se9jcQAA",
+      "methodName": "existingContactTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7S000001z9m5QAA",
+        "name": "ContactManagerTest",
+        "namespacePrefix": null,
+        "fullName": "ContactManagerTest"
+      },
+      "runTime": 74,
+      "testTimestamp": "2022-11-19T17:09:00.000+0000",
+      "fullName": "ContactManagerTest.existingContactTest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "ContactManager",
+          "apexClassOrTriggerId": "01p7S000001z9m0QAA",
+          "apexTestClassId": "01p7S000001z9m5QAA",
+          "apexTestMethodName": "existingContactTest",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 17,
+          "percentage": "19%",
+          "coverage": {
+            "coveredLines": [
+              5,
+              7,
+              9,
+              10
+            ],
+            "uncoveredLines": [
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              25,
+              26,
+              27,
+              28,
+              29,
+              31,
+              32,
+              33,
+              35,
+              36
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M7S000000WSXsUAO",
+      "queueItemId": "7097S000000XcB9QAK",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077S00001se9jcQAA",
+      "methodName": "updateContactTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7S000001z9m5QAA",
+        "name": "ContactManagerTest",
+        "namespacePrefix": null,
+        "fullName": "ContactManagerTest"
+      },
+      "runTime": 106,
+      "testTimestamp": "2022-11-19T17:09:00.000+0000",
+      "fullName": "ContactManagerTest.updateContactTest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "ContactManager",
+          "apexClassOrTriggerId": "01p7S000001z9m0QAA",
+          "apexTestClassId": "01p7S000001z9m5QAA",
+          "apexTestMethodName": "updateContactTest",
+          "numLinesCovered": 11,
+          "numLinesUncovered": 10,
+          "percentage": "52%",
+          "coverage": {
+            "coveredLines": [
+              5,
+              25,
+              26,
+              27,
+              28,
+              29,
+              31,
+              32,
+              33,
+              35,
+              36
+            ],
+            "uncoveredLines": [
+              7,
+              9,
+              10,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M7S000000WSXvUAO",
+      "queueItemId": "7097S000000XcBAQA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077S00001se9jcQAA",
+      "methodName": "createContractTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7S000001z9uVQAQ",
+        "name": "ContractManagerTest",
+        "namespacePrefix": null,
+        "fullName": "ContractManagerTest"
+      },
+      "runTime": 402,
+      "testTimestamp": "2022-11-19T17:09:00.000+0000",
+      "fullName": "ContractManagerTest.createContractTest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "ContractManager",
+          "apexClassOrTriggerId": "01p7S000001z9uQQAQ",
+          "apexTestClassId": "01p7S000001z9uVQAQ",
+          "apexTestMethodName": "createContractTest",
+          "numLinesCovered": 8,
+          "numLinesUncovered": 10,
+          "percentage": "44%",
+          "coverage": {
+            "coveredLines": [
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              12,
+              13
+            ],
+            "uncoveredLines": [
+              18,
+              19,
+              20,
+              21,
+              22,
+              24,
+              25,
+              26,
+              28,
+              29
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M7S000000WSXwUAO",
+      "queueItemId": "7097S000000XcBAQA0",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7077S00001se9jcQAA",
+      "methodName": "updateContractTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p7S000001z9uVQAQ",
+        "name": "ContractManagerTest",
+        "namespacePrefix": null,
+        "fullName": "ContractManagerTest"
+      },
+      "runTime": 138,
+      "testTimestamp": "2022-11-19T17:09:00.000+0000",
+      "fullName": "ContractManagerTest.updateContractTest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "ContractManager",
+          "apexClassOrTriggerId": "01p7S000001z9uQQAQ",
+          "apexTestClassId": "01p7S000001z9uVQAQ",
+          "apexTestMethodName": "updateContractTest",
+          "numLinesCovered": 11,
+          "numLinesUncovered": 7,
+          "percentage": "61%",
+          "coverage": {
+            "coveredLines": [
+              5,
+              18,
+              19,
+              20,
+              21,
+              22,
+              24,
+              25,
+              26,
+              28,
+              29
+            ],
+            "uncoveredLines": [
+              6,
+              7,
+              8,
+              9,
+              10,
+              12,
+              13
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p7S000001z9uQQAQ",
+      "name": "ContractManager",
+      "type": "ApexClass",
+      "numLinesCovered": 18,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24,
+        25,
+        26,
+        28,
+        29
+      ],
+      "uncoveredLines": []
+    },
+    {
+      "apexId": "01p7S000001z9m0QAA",
+      "name": "ContactManager",
+      "type": "ApexClass",
+      "numLinesCovered": 21,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        5,
+        7,
+        9,
+        10,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        35,
+        36
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

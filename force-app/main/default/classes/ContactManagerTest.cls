@@ -44,4 +44,28 @@ public with sharing class ContactManagerTest {
         Contact updatedContact = [SELECT Id, FirstName FROM Contact WHERE Id = : updatedContactId];
         System.assert(updatedContact.FirstName == 'anotherTestName');
     }
+
+    @IsTest
+    public static void deactivateContactTest(){
+
+        Contact newContact = new Contact (FirstName = 'testFirstName', LastName = 'testLastName', Email = 'testEmail.deactivateContact@test.com', Phone = 'testPhone');
+        Insert newContact; 
+
+        RestRequest request = new RestRequest();
+        request.requestUri =
+            'https://projectoccom-dev-ed.develop.my.salesforce.com/services/apexrest/Contact/'
+            + newContact.Id;
+        request.httpMethod = 'DELETE';
+        Request.addHeader('Content-Type', 'Application/Json');
+        RestContext.request = request;
+
+        Test.startTest(); 
+        Id deactivatedContactId = ContactManager.deactivateContact();
+        Test.stopTest();
+
+        Contact deactivatedContact = [SELECT Id, Deactivated__c FROM Contact WHERE Id =:deactivatedContactId];
+        System.assertEquals(deactivatedContact.Deactivated__c, true);  
+    }
+
+
 }
